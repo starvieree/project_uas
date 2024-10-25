@@ -39,6 +39,13 @@ class HomePage extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
+                Text(
+                  'NIM : 362358302015',
+                  style: const TextStyle(fontSize: 18),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
                 ElevatedButton(
                   onPressed: () {
                     // Redirect ke halaman login
